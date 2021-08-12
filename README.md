@@ -8,4 +8,4 @@
 4. [CCCanvas](https://github.com/ccworld1000/CCCanvas) iOS Metal MetalKit GPU 极简体验Demo之 - 三角形 [<<代码链接>>](https://github.com/ccworld1000/CCCanvas.Triangle)
 5. [CCCanvas](https://github.com/ccworld1000/CCCanvas) iOS Metal MetalKit GPU 极简体验Demo之 - 面 [<<代码链接>>](https://github.com/ccworld1000/CCCanvas.Plane)
 ### Screenshot
-![CCCanvas.Point iPhone Screenshot](https://raw.github.com/ccworld1000/CCCanvas.Point/main/Screenshot/iPhone.jpg?raw=true)
+![CCCanvas.Point iPhone Screenshot](https://github.com/ccworld1000/CCCanvas.Point/main/Screenshot/iPhone.jpg?raw=true)
