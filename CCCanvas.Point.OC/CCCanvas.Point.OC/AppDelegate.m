@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  CCCanvas.Point.OC
 //
-//  Created by CC (deng you hua | cworld1000@gmail.com) on 2021/8/12.
+//  Created by CC (deng you hua | cworld1000@gmail.com) on 2021/09/09.
 //  https://github.com/ccworld1000/CCCanvas.Point
 
 #import "AppDelegate.h"
@@ -19,22 +19,5 @@
     return YES;
 }
 
-
-#pragma mark - UISceneSession lifecycle
-
-
-- (UISceneConfiguration *)application:(UIApplication *)application configurationForConnectingSceneSession:(UISceneSession *)connectingSceneSession options:(UISceneConnectionOptions *)options {
-    // Called when a new scene session is being created.
-    // Use this method to select a configuration to create the new scene with.
-    return [[UISceneConfiguration alloc] initWithName:@"Default Configuration" sessionRole:connectingSceneSession.role];
-}
-
-
-- (void)application:(UIApplication *)application didDiscardSceneSessions:(NSSet<UISceneSession *> *)sceneSessions {
-    // Called when the user discards a scene session.
-    // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-    // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
-}
-
-
 @end
+

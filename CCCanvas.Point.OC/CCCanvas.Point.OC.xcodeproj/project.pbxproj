@@ -3,116 +3,110 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42C0E1B226C4B58F000276E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C0E1B126C4B58F000276E8 /* AppDelegate.m */; };
-		42C0E1B526C4B58F000276E8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C0E1B426C4B58F000276E8 /* SceneDelegate.m */; };
-		42C0E1B826C4B58F000276E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C0E1B726C4B58F000276E8 /* ViewController.m */; };
-		42C0E1BB26C4B58F000276E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42C0E1B926C4B58F000276E8 /* Main.storyboard */; };
-		42C0E1BD26C4B591000276E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42C0E1BC26C4B591000276E8 /* Assets.xcassets */; };
-		42C0E1C026C4B591000276E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42C0E1BE26C4B591000276E8 /* LaunchScreen.storyboard */; };
-		42C0E1C326C4B591000276E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C0E1C226C4B591000276E8 /* main.m */; };
-		CB1AE9786BAADA256F3E89AD /* Pods_CCCanvas_Point_OC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26E850BDC084DA4228E1DE8 /* Pods_CCCanvas_Point_OC.framework */; };
+		073B9F85DD875827727F5306 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F03CA409DE23B988F053FCCF /* main.m */; };
+		2F87179AE743CF69ABB738AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 887390CF57DD3629A79902E7 /* AppDelegate.m */; };
+		48CA6EF462764F1176B8A799 /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 67F4705839472AAA50A94242 /* Main.storyboard */; };
+		633E98632FD4D84F131E4644 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA73D5FDD49769A06A29A84B /* ViewController.m */; };
+		6C6BF6A3070B358F738ABAA4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6622D67993A5201AD5CF94 /* SceneDelegate.m */; };
+		6D309972821A2BF662E902B1 /* LaunchScreen.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = D4F93F4E944F6010C9D73EB5 /* LaunchScreen.storyboard */; };
+		89CF6140D087220533C586F5 /* Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = B5EEFE4C34D82A2C3AFC4922 /* Assets.xcassets */; };
+		DF5E0A23215EA4ECC3204DB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08627FF592851D697B5E4A4B /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		42C0E1AD26C4B58F000276E8 /* CCCanvas.Point.OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCCanvas.Point.OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		42C0E1B026C4B58F000276E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		42C0E1B126C4B58F000276E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		42C0E1B326C4B58F000276E8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		42C0E1B426C4B58F000276E8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		42C0E1B626C4B58F000276E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		42C0E1B726C4B58F000276E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		42C0E1BA26C4B58F000276E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		42C0E1BC26C4B591000276E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		42C0E1BF26C4B591000276E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		42C0E1C126C4B591000276E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42C0E1C226C4B591000276E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		48D1151A7587D51685EF173B /* Pods-CCCanvas.Point.OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCCanvas.Point.OC.debug.xcconfig"; path = "Target Support Files/Pods-CCCanvas.Point.OC/Pods-CCCanvas.Point.OC.debug.xcconfig"; sourceTree = "<group>"; };
-		8DD83D17FB33D834E7880CBB /* Pods-CCCanvas.Point.OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCCanvas.Point.OC.release.xcconfig"; path = "Target Support Files/Pods-CCCanvas.Point.OC/Pods-CCCanvas.Point.OC.release.xcconfig"; sourceTree = "<group>"; };
-		F26E850BDC084DA4228E1DE8 /* Pods_CCCanvas_Point_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCCanvas_Point_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08627FF592851D697B5E4A4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5D6622D67993A5201AD5CF94 /* SceneDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		67F4705839472AAA50A94242 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C68A534B060D508AD69E689 /* SceneDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		84F57A8552B7834122043C02 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		887390CF57DD3629A79902E7 /* AppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		976D544488BF51E70EA32477 /* ViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AF4A71E7D10850B0EC1A0D2A /* AppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5EEFE4C34D82A2C3AFC4922 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA73D5FDD49769A06A29A84B /* ViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4F93F4E944F6010C9D73EB5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB9BC3261CC689ED99CDA03B /* CCCanvas.Point.OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCCanvas.Point.OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03CA409DE23B988F053FCCF /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		42C0E1AA26C4B58F000276E8 /* Frameworks */ = {
+		C895D07F6F666B8320C4B625 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB1AE9786BAADA256F3E89AD /* Pods_CCCanvas_Point_OC.framework in Frameworks */,
+				DF5E0A23215EA4ECC3204DB2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		42C0E1A426C4B58F000276E8 = {
+		1129B02EE6A3C0D46C8862B7 = {
 			isa = PBXGroup;
 			children = (
-				42C0E1AF26C4B58F000276E8 /* CCCanvas.Point.OC */,
-				42C0E1AE26C4B58F000276E8 /* Products */,
-				F3ED1806C84BBCD5F25CBD3C /* Pods */,
-				A094C684C2F2707ECBD42A54 /* Frameworks */,
+				F7DE2359B20DEF1E78C23A9B /* Products */,
+				B24F0FE157D6EEBE2F2EAA6E /* Frameworks */,
+				C1F5C6D42ED1AC7508A2E291 /* CCCanvas.Point.OC */,
 			);
 			sourceTree = "<group>";
 		};
-		42C0E1AE26C4B58F000276E8 /* Products */ = {
+		A1AE67B8C8ED99430A208F7D /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				42C0E1AD26C4B58F000276E8 /* CCCanvas.Point.OC.app */,
+				08627FF592851D697B5E4A4B /* Foundation.framework */,
 			);
-			name = Products;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		42C0E1AF26C4B58F000276E8 /* CCCanvas.Point.OC */ = {
+		B24F0FE157D6EEBE2F2EAA6E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				42C0E1B026C4B58F000276E8 /* AppDelegate.h */,
-				42C0E1B126C4B58F000276E8 /* AppDelegate.m */,
-				42C0E1B326C4B58F000276E8 /* SceneDelegate.h */,
-				42C0E1B426C4B58F000276E8 /* SceneDelegate.m */,
-				42C0E1B626C4B58F000276E8 /* ViewController.h */,
-				42C0E1B726C4B58F000276E8 /* ViewController.m */,
-				42C0E1B926C4B58F000276E8 /* Main.storyboard */,
-				42C0E1BC26C4B591000276E8 /* Assets.xcassets */,
-				42C0E1BE26C4B591000276E8 /* LaunchScreen.storyboard */,
-				42C0E1C126C4B591000276E8 /* Info.plist */,
-				42C0E1C226C4B591000276E8 /* main.m */,
-			);
-			path = CCCanvas.Point.OC;
-			sourceTree = "<group>";
-		};
-		A094C684C2F2707ECBD42A54 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F26E850BDC084DA4228E1DE8 /* Pods_CCCanvas_Point_OC.framework */,
+				A1AE67B8C8ED99430A208F7D /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F3ED1806C84BBCD5F25CBD3C /* Pods */ = {
+		C1F5C6D42ED1AC7508A2E291 /* CCCanvas.Point.OC */ = {
 			isa = PBXGroup;
 			children = (
-				48D1151A7587D51685EF173B /* Pods-CCCanvas.Point.OC.debug.xcconfig */,
-				8DD83D17FB33D834E7880CBB /* Pods-CCCanvas.Point.OC.release.xcconfig */,
+				AF4A71E7D10850B0EC1A0D2A /* AppDelegate.h */,
+				887390CF57DD3629A79902E7 /* AppDelegate.m */,
+				7C68A534B060D508AD69E689 /* SceneDelegate.h */,
+				5D6622D67993A5201AD5CF94 /* SceneDelegate.m */,
+				976D544488BF51E70EA32477 /* ViewController.h */,
+				BA73D5FDD49769A06A29A84B /* ViewController.m */,
+				67F4705839472AAA50A94242 /* Main.storyboard */,
+				B5EEFE4C34D82A2C3AFC4922 /* Assets.xcassets */,
+				D4F93F4E944F6010C9D73EB5 /* LaunchScreen.storyboard */,
+				84F57A8552B7834122043C02 /* Info.plist */,
+				F03CA409DE23B988F053FCCF /* main.m */,
 			);
-			name = Pods;
-			path = Pods;
+			name = CCCanvas.Point.OC;
+			path = CCCanvas.Point.OC;
+			sourceTree = "<group>";
+		};
+		F7DE2359B20DEF1E78C23A9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB9BC3261CC689ED99CDA03B /* CCCanvas.Point.OC.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		42C0E1AC26C4B58F000276E8 /* CCCanvas.Point.OC */ = {
+		5425CBF65797685BFB5FE982 /* CCCanvas.Point.OC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42C0E1C626C4B591000276E8 /* Build configuration list for PBXNativeTarget "CCCanvas.Point.OC" */;
+			buildConfigurationList = 7713FE022347F8CF01723B65 /* Build configuration list for PBXNativeTarget "CCCanvas.Point.OC" */;
 			buildPhases = (
-				F5A3FD8F5FCD98468D3675E2 /* [CP] Check Pods Manifest.lock */,
-				42C0E1A926C4B58F000276E8 /* Sources */,
-				42C0E1AA26C4B58F000276E8 /* Frameworks */,
-				42C0E1AB26C4B58F000276E8 /* Resources */,
-				7BF5578D3CB7D48B46DC17E7 /* [CP] Embed Pods Frameworks */,
+				3F3473BCC33A4B6DCBB0CD08 /* Sources */,
+				C895D07F6F666B8320C4B625 /* Frameworks */,
+				70CA506F63238AE6AD2841DF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -120,133 +114,67 @@
 			);
 			name = CCCanvas.Point.OC;
 			productName = CCCanvas.Point.OC;
-			productReference = 42C0E1AD26C4B58F000276E8 /* CCCanvas.Point.OC.app */;
+			productReference = EB9BC3261CC689ED99CDA03B /* CCCanvas.Point.OC.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		42C0E1A526C4B58F000276E8 /* Project object */ = {
+		9625FFB48C2E0E8E54DF3ACF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
 				CLASSPREFIX = CC;
-				LastUpgradeCheck = 1300;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "CC (deng you hua | cworld1000@gmail.com)";
-				TargetAttributes = {
-					42C0E1AC26C4B58F000276E8 = {
-						CreatedOnToolsVersion = 13.0;
-					};
-				};
 			};
-			buildConfigurationList = 42C0E1A826C4B58F000276E8 /* Build configuration list for PBXProject "CCCanvas.Point.OC" */;
-			compatibilityVersion = "Xcode 12.0";
+			buildConfigurationList = 258F352254603A067D991DC9 /* Build configuration list for PBXProject "CCCanvas.Point.OC" */;
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 42C0E1A426C4B58F000276E8;
-			productRefGroup = 42C0E1AE26C4B58F000276E8 /* Products */;
+			mainGroup = 1129B02EE6A3C0D46C8862B7;
+			productRefGroup = F7DE2359B20DEF1E78C23A9B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				42C0E1AC26C4B58F000276E8 /* CCCanvas.Point.OC */,
+				5425CBF65797685BFB5FE982 /* CCCanvas.Point.OC */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		42C0E1AB26C4B58F000276E8 /* Resources */ = {
+		70CA506F63238AE6AD2841DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42C0E1C026C4B591000276E8 /* LaunchScreen.storyboard in Resources */,
-				42C0E1BD26C4B591000276E8 /* Assets.xcassets in Resources */,
-				42C0E1BB26C4B58F000276E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		7BF5578D3CB7D48B46DC17E7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CCCanvas.Point.OC/Pods-CCCanvas.Point.OC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CCCanvas.Point.OC/Pods-CCCanvas.Point.OC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CCCanvas.Point.OC/Pods-CCCanvas.Point.OC-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F5A3FD8F5FCD98468D3675E2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CCCanvas.Point.OC-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		42C0E1A926C4B58F000276E8 /* Sources */ = {
+		3F3473BCC33A4B6DCBB0CD08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42C0E1B826C4B58F000276E8 /* ViewController.m in Sources */,
-				42C0E1B226C4B58F000276E8 /* AppDelegate.m in Sources */,
-				42C0E1C326C4B591000276E8 /* main.m in Sources */,
-				42C0E1B526C4B58F000276E8 /* SceneDelegate.m in Sources */,
+				2F87179AE743CF69ABB738AD /* AppDelegate.m in Sources */,
+				6C6BF6A3070B358F738ABAA4 /* SceneDelegate.m in Sources */,
+				633E98632FD4D84F131E4644 /* ViewController.m in Sources */,
+				48CA6EF462764F1176B8A799 /* Main.storyboard in Sources */,
+				89CF6140D087220533C586F5 /* Assets.xcassets in Sources */,
+				6D309972821A2BF662E902B1 /* LaunchScreen.storyboard in Sources */,
+				073B9F85DD875827727F5306 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		42C0E1B926C4B58F000276E8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				42C0E1BA26C4B58F000276E8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		42C0E1BE26C4B591000276E8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				42C0E1BF26C4B591000276E8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		42C0E1C426C4B591000276E8 /* Debug */ = {
+		56EFA7F3C678DC4BD1933EA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -297,15 +225,62 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		42C0E1C526C4B591000276E8 /* Release */ = {
+		60A7A1294F249DE73F6E3597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CCCanvas.Point.OC/Info.plist;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cc.CCCanvas-Point.OC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FD1BFF2A13529C053C20B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CCCanvas.Point.OC/Info.plist;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cc.CCCanvas-Point.OC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C599E5052F27AB20D41C7529 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -350,90 +325,37 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		42C0E1C726C4B591000276E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48D1151A7587D51685EF173B /* Pods-CCCanvas.Point.OC.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CCCanvas.Point.OC/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cc.CCCanvas-Point-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		42C0E1C826C4B591000276E8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DD83D17FB33D834E7880CBB /* Pods-CCCanvas.Point.OC.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CCCanvas.Point.OC/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cc.CCCanvas-Point-OC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		42C0E1A826C4B58F000276E8 /* Build configuration list for PBXProject "CCCanvas.Point.OC" */ = {
+		258F352254603A067D991DC9 /* Build configuration list for PBXProject "CCCanvas.Point.OC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42C0E1C426C4B591000276E8 /* Debug */,
-				42C0E1C526C4B591000276E8 /* Release */,
+				56EFA7F3C678DC4BD1933EA9 /* Debug */,
+				C599E5052F27AB20D41C7529 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42C0E1C626C4B591000276E8 /* Build configuration list for PBXNativeTarget "CCCanvas.Point.OC" */ = {
+		7713FE022347F8CF01723B65 /* Build configuration list for PBXNativeTarget "CCCanvas.Point.OC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42C0E1C726C4B591000276E8 /* Debug */,
-				42C0E1C826C4B591000276E8 /* Release */,
+				8FD1BFF2A13529C053C20B15 /* Release */,
+				60A7A1294F249DE73F6E3597 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 42C0E1A526C4B58F000276E8 /* Project object */;
+	rootObject = 9625FFB48C2E0E8E54DF3ACF /* Project object */;
 }

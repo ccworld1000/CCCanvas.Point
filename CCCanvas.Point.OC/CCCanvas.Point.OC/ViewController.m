@@ -2,7 +2,7 @@
 //  ViewController.m
 //  CCCanvas.Point.OC
 //
-//  Created by CC (deng you hua | cworld1000@gmail.com) on 2021/8/12.
+//  Created by CC (deng you hua | cworld1000@gmail.com) on 2021/09/09.
 //  https://github.com/ccworld1000/CCCanvas.Point
 
 #import "ViewController.h"
@@ -14,13 +14,14 @@
 @implementation ViewController
 
 - (CCCanvasPoint *)getCanvasPoint {
-    return [[CCCanvasPoint alloc] initPointWith1Point:CGPointZero];
+	 return [[CCCanvasPoint alloc] initPointWith1Point:CGPointZero];
 }
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+  [super viewDidLoad];
+  // Do any additional setup after loading the view.
 }
 
 
 @end
+
